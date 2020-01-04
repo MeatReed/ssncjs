@@ -10,7 +10,7 @@ node ssnc <serial number>
 node ssnc XAJ10011683536 or XAJ1 0011683536
 ```
 
-reponse :
+response :
 ```
 {
     serial: ['XAJ10011683536'],
