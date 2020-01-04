@@ -1,6 +1,6 @@
 module.exports.check = (serials, serial_input) => {
 
-    if (serial_input.join(" ").length >= 4) {
+    if (serial_input.join("").length >= 4) {
 
         let first_part = serial_input.join("").slice(0, 4).toUpperCase();;
         let second_part = serial_input.join("").slice(3, 10);;

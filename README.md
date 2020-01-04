@@ -1,5 +1,7 @@
 # ssncjs
 
+Original in Python : https://github.com/AkdM/ssncpy
+
 ## Usage
 ```
 node ssnc <serial number>
