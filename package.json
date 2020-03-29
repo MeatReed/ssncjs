@@ -1,6 +1,6 @@
 {
   "name": "ssncjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Module permettant de vérifier si sa Nintendo Switch est hackable grâce à son numéro de série.",
   "main": "index.js",
   "directories": {
