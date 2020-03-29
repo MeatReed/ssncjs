@@ -10,7 +10,7 @@ npm i ssncjs
 
 ## Utilisation
 ```js
-const ssnc = require('ssnc')
+const ssnc = require('ssncjs')
 
 console.log(ssnc.check('serials', 'XAJ10011683536 ou XAJ1 0011683536'))
 ```
