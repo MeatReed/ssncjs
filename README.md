@@ -5,12 +5,12 @@ Original in Python : https://github.com/AkdM/ssncpy
 
 ## Installation
 ```
-npm i @MeatReed/ssncjs
+npm i ssncjs
 ```
 
 ## Utilisation
 ```js
-const ssnc = require('@MeatReed/ssnc')
+const ssnc = require('ssnc')
 
 console.log(ssnc.check('serials', 'XAJ10011683536 ou XAJ1 0011683536'))
 ```
@@ -24,3 +24,5 @@ Réponse :
     status: 'safe'
 }
 ```
+
+Exemple : https://github.com/MeatReed/ssncjs/tree/master/examples
