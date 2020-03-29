@@ -1,18 +1,21 @@
 # ssncjs
 
+Module permettant de vérifier si sa Nintendo Switch est hackable grâce à son numéro de série.
 Original in Python : https://github.com/AkdM/ssncpy
 
-## Usage
+## Installation
 ```
-node ssnc <serial number>
-```
-
-## Example
-```
-node ssnc XAJ10011683536 or XAJ1 0011683536
+npm i @MeatReed/ssncjs
 ```
 
-response :
+## Utilisation
+```js
+const ssnc = require('@MeatReed/ssnc')
+
+console.log(ssnc.check('serials', 'XAJ10011683536 ou XAJ1 0011683536'))
+```
+
+Réponse :
 ```
 {
     serial: ['XAJ10011683536'],

@@ -1,0 +1,26 @@
+{
+  "name": "ssncjs",
+  "version": "1.0.0",
+  "description": "Module permettant de vérifier si sa Nintendo Switch est hackable grâce à son numéro de série.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeatReed/ssncjs.git"
+  },
+  "keywords": [
+    "ssnc",
+    "ssncjs"
+  ],
+  "author": "MeatReed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MeatReed/ssncjs/issues"
+  },
+  "homepage": "https://github.com/MeatReed/ssncjs#readme"
+}
